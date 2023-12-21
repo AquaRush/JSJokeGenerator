@@ -6,8 +6,8 @@ Feel free to contribute to this project and/or distribute it with or without giv
 Suggestions are always welcomed, as well as critiques for code improvement or any sort of improvements, thank you!
 
 ### Credits:
-[Jokes API](https://github.com/15Dkatz/official_joke_api)
-[YouTube Tutorial](https://www.youtube.com/watch?v=xHuaEKCldhE)
-[SVGBackgrounds](https://www.svgbackgrounds.com/elements/animated-svg-preloaders/)
+[Jokes API](https://github.com/15Dkatz/official_joke_api)  
+[YouTube Tutorial](https://www.youtube.com/watch?v=xHuaEKCldhE)  
+[SVGBackgrounds](https://www.svgbackgrounds.com/elements/animated-svg-preloaders/)  
 [TailwindCSS](https://tailwindcss.com/)
 
