@@ -22,6 +22,7 @@ let generatedJoke = (data) => {
   //   console.log(data);
   const jokeSetup = data.setup;
   const jokePunchline = data.punchline;
+  
   //Stop animation on button click
   preloadAnimation.style.display = "none";
   jokeQuestion.innerHTML = jokeSetup;
