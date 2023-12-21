@@ -6,6 +6,7 @@ const APIUrl = "https://official-joke-api.appspot.com/jokes/random";
 
 // Call & fetch data using API url.
 let jokeGenerator = () => {
+  
   //Play animation on button click
   preloadAnimation.style.display = "block";
   jokeQuestion.innerHTML = "";
