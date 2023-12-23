@@ -14,20 +14,32 @@
 
     <body>
 
+        <!-- Main section -->
         <section
             class="bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-500 parent h-screen flex flex-col items-center justify-center">
 
-            <article class="container flex flex-col items-center justify-center child size-6/12 max-w-3xl mx-auto px-20 bg-gradient-to-r bg-gradient-to-r from-sky-900/50 to-indigo-900/50 rounded-lg">
+            <!-- Article tag containing rest of the elements -->
+            <article
+                class="container sm:size-6/12 md:w-50 lg:w-50 xl:w-50 2xl:w-50 flex flex-col items-center justify-center child  max-w-3xl mx-auto px-20 bg-gradient-to-r bg-gradient-to-r from-sky-900/50 to-indigo-900/50 rounded-lg">
 
-                <h2 class="child overflow-auto text-7xl mx-auto text-center py-10">&#128513;</h2>
+                <!-- Smiley emoji -->
+                <h2 class="child overflow-auto sm:text-xl md:text-7xl ld:text-7xl mx-auto text-center py-10">
+                    &#128513;
+                </h2>
 
+                <!-- Setup question of joke API -->
                 <p id="joke-setup" class="text-rose-200 my-4 mx-auto text-center text-lg"></p>
 
+                <!-- Loading animation -->
                 <span id="animation"></span>
 
+                <!-- Setup answer of joke API -->
                 <p id="joke-punchline" class="text-emerald-200 my-4 mx-auto text-center text-lg"></p>
 
-                <button id="button" type="button" class="mx-auto bg-gradient-to-r from-green-400 text-white to-blue-500 hover:from-indigo-700 hover:to-pink-500 font-semibold py-3 px-4 my-10 border border-gray-400 rounded shadow">
+                <!-- Generate joke button -->
+                <button id="button" type="button"
+                    class="mx-auto sm:w-50 lg:w-50 xl:w-50 2xl:w-50 
+                    bg-gradient-to-r from-green-400 text-white to-blue-500 hover:from-indigo-700 hover:to-pink-500 font-semibold sm:py-3 sm:px-4 md:py-4 md:px-2 sm:py-4 sm:px-2 my-10 py-3 px-4 border border-gray-400 rounded shadow">
                     Generate A Random Joke
                 </button>
 
